@@ -8,7 +8,7 @@ LOCAL_PATH=$5
 
 THIS_DATE=$(date)
 
-LOG_PATH=.
+LOG_PATH=/var/log
 LOG_SCRIPT=ftpbak.script.log
 LOG_RUN=ftpbak.run.log
 
