@@ -1,14 +1,24 @@
 # ftpbak
 FTP backup script using lftp and mirror
 
-Arguments:
+## Arguments
 
-./ftpsync.sh _user_ _pass_ _ftp_ip_ _remote_path_ _local_path_
+```./ftpsync.sh user pass ftp_ip remote_path local_path```
 
-Example:
+## Examples
 
-./ftpsync.sh user pass 192.168.0.11 server_backup/172.16.231.25/test2 /home/ijat/hehehe
+```./ftpsync.sh user pass 192.168.0.11 server_backup/172.16.231.25/test2 /home/ijat/hehehe```
 
 This will upload all folders at local /home/ijat/hehehe to remote server_backup/172.16.231.25/test2 (ftp).
+
+## Log file
+
+There are two log file named
+
+* ftp.run.log - Last output of lftp
+
+* ftpbak.script.log - Log of script run time and date
+
+## Credit
 
 Credits to easel from http://serverfault.com/a/24833
