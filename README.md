@@ -10,3 +10,5 @@ Example:
 ./ftpsync.sh user pass 192.168.0.11 server_backup/172.16.231.25/test2 /home/ijat/hehehe
 
 This will upload all folders at local /home/ijat/hehehe to remote server_backup/172.16.231.25/test2 (ftp).
+
+Credits to easel from http://serverfault.com/a/24833
