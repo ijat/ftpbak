@@ -20,4 +20,5 @@ lcd $LOCAL_PATH;
 cd $FTP_PATH;
 mirror --reverse --delete --use-cache --verbose --allow-chown --allow-suid --no-umask --parallel=2" | tee $LOG_PATH/$LOG_RUN
 
-
+THIS_DATE=$(date)
+echo -e "Script ended at $THIS_DATE" >> $LOG_PATH/$LOG_SCRIPT 2>&1
